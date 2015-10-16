@@ -7,6 +7,8 @@ class MyGui(Frame):
         Frame.__init__(self, parent)
         button = Button(self, text='press', command=self.reply)
         button.pack()
+
+
     def reply(self):
         showinfo(title='popup', message='Button pressed!')
 
